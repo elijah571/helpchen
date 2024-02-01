@@ -1,0 +1,20 @@
+git init:Initializes a new Git repository in the current directory.
+git clone: Clones an existing repository from a remote URL to your local machine.
+git add [file(s)]: Adds file(s) to the staging area to be included in the next commit.
+git commit -m "[commit message]" :Commits the staged changes with a descriptive commit message.
+git status: Displays the current state of the working directory and staging area, showing which files are modified, staged, or untracked.
+git log: Displays a chronological list of commits in the repository along with their commit messages and metadata.
+git branch: Lists all branches in the repository and indicates the currently active branch.
+git branch [branch name]: Creates a new branch with the specified name.
+git checkout [branch name]: Switches to the specified branch, updating the working directory with the branch's contents.
+git merge [branch name]: Combines changes from the specified branch into the current branch (usually the main branch).
+git pull: Fetches changes from the remote repository and merges them into the current branch.
+git push [remote name] [branch name]: Pushes local commits to the remote repository, updating the specified branch.
+git remote -v: Lists all remote repositories associated with the current repository along with their URLs.
+git fetch Fetches changes from the remote repository without merging them into the local branch.
+git diff: Displays the differences between the working directory and the staging area.
+git diff [commit1] [commit2]: Displays the differences between two commits or branches.
+git reset [file]: Removes file(s) from the staging area while keeping the changes in the working directory.
+git reset --hard [commit]: Resets the working directory to match the specified commit, discarding any changes.
+git tag [tag name] [commit]: Creates a lightweight tag for the specified commit, marking it with a descriptive name.
+git remote add [remote name] [remote URL]: Adds a new remote repository with the specified name and URL.
