@@ -1,0 +1,11 @@
+Open Terminal and run the following command to install Git:
+sudo apt update
+sudo apt install git
+Complete Installation:
+
+After installation, you can verify the installation by typing git --version in the Terminal.
+Once Git is installed, you can configure it with your name and email address using the following commands:
+
+git config --global user.name "Chen Yong"
+git config --global user.email "ChenYong@gmail.com"
+This sets up your identity for Git commits.
